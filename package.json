@@ -1,0 +1,33 @@
+{
+  "name": "newsscrap",
+  "version": "1.0.0",
+  "description": "scrap news from npr.org",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Restituo/newsscrap.git"
+  },
+  "author": "Richard Chen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Restituo/newsscrap/issues"
+  },
+  "homepage": "https://github.com/Restituo/newsscrap#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "bootbox": "^4.4.0",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "logger": "0.0.1",
+    "mongoose": "^5.0.9",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.5",
+    "npm": "^6.1.0",
+  }
+}
